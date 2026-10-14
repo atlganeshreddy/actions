@@ -5,4 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Step
-        run: echo "i am Ganesh"
+        run: |
+          echo "i am Ganesh"
+          echo "i am Ganesh1"
+          echo "i am Ganesh2"
+         
